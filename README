@@ -1,0 +1,14 @@
+212523849
+Malik Karmi
+ex2a
+threadpool.c is the exercise file and you need threadpool.h the header file
+
+The main function creates a pool of threads, threads wait for jobs.
+
+the task function prints the thread id 1000 times,
+add sleep for 100 milliseconds after each print.
+
+in the main function i add while loop because that he done from the main and destroy the thread 
+pool and he well enter a deadlock and i solve it with this while loop that he well wait until 
+all taskes end 
+  
